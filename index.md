@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gustaf mit F</title>
+</head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>HTML I Home</title>
+<body>
+<div id="Gustaf Gabel">
 
-You can use the [editor on GitHub](https://github.com/Ferederik/html/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <nav>
+        <ul>
+            <body a link="white" vlink="white">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Erklären.html">Erklären</a></li>
+            <li><a href="kontakt.html">Schietzrichter Regeln</a></li>
+            <li><a href="Schillen.html">Schillen</a></li>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        </ul>
+    </nav>
+    <section>
+        <Center><iframe width="560" height="315" src="https://www.youtube.com/embed/fxjHhhU0ytI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></center>
+        <style type="text/css">
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ferederik/html/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    body{
+ background-image:url(data:image/jpeg;base64,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);
+ background-position: 100px 0,5px;
+</body>
+</html>
